@@ -1,0 +1,124 @@
+/* body style */
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    display: 100;
+}
+.description{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+/* banner styles*/
+header{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 808px;
+}
+.banner{
+    margin-right: 230px;
+    margin-left: 845px;
+}
+.banner-title{
+    text-align: right;
+  
+}
+
+/* main styles */
+.failure{
+    display: flex;
+    margin-left: 198px;
+    margin-right: 322px;
+    gap: 95px;
+    margin-top: 220px;
+}
+/* .faillure-image{
+    width: 569px;
+    height: 723.3px;
+} */
+.failure-info{
+    margin-top: 200px;
+    margin-left: 0px;
+}
+.failure-title{
+    color: #151414;;
+    font-weight: 700;
+    font-size: 40px;
+}
+.failure-description{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* plan styles */
+.plan{
+    margin-top: 220px;
+}
+.plan .title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.plan-divs{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 198px;
+    margin-right: 198px;
+    justify-content: space-between;
+    text-align: center;
+}
+title{
+    color: #151414;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px ;
+}
+/* .plan-description{
+    color: #737272;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 15px;
+} */
+/* mindset */
+.mindset{
+    margin:140px 140px 140px 110px;
+}
+.mindset-details{
+    background-image: url(../images/watch.png), url(../images/gradient3.png);
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    width: 1140px;
+    height: 300px;
+}
+
+/* footer styles */
+footer{
+    width: 100%;
+    height: 577px;
+    background: #151414;
+    color: #FFFFFF;
+   
+}
+footer .description{
+    color: #FFFFFF;
+}
+.footer-info{
+    display: flex;
+    gap: 120px;
+    margin: 267px;
+}
+.footer-info .title{
+    margin-top: 130px;
+    font-weight: 700;
+    size: 45px;
+}
+
+
